@@ -7,10 +7,7 @@ const nuevaString = "hola";
 const nuevoNum = 7;
 
 // Crea una variable booleana:
-const nuevoBool = for (let index = 0; index < array.length; index++) {
-	const element = array[index];
-	if
-} bvar;
+const nuevoBool = 7 == 9;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
