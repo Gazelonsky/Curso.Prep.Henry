@@ -160,13 +160,15 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+  var c = Math.ceil(num)
+  return c
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  var c = Math.random(10)
+  return c
 }
 
 function esPositivo(numero) {
@@ -174,7 +176,15 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
+  if (numero > 0 ) {
+    return "Es positivo";
+  }
+  else if (numero < -1) {
+    return "Es negativo";    
+  }
+  else {
+    return false
+  }
 }
 
 function agregarSimboloExclamacion(str) {
